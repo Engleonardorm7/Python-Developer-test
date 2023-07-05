@@ -25,15 +25,15 @@ $ source venv/Scripts/activate
 $ pip install -r requirements.txt
 ```
 
->Configuration
+## Configuration
 - Before running the program or tests, you need to configure the API key.
 ```shell
 $ export GITHUB_TOKEN="put your GITHUB token"
-$ FRESHDESK_TOKEN="put your Freshdesk token" 
+$ export FRESHDESK_TOKEN="put your Freshdesk token" 
 ```
 Open the main.py file and locate the following section:
 
->Usage
+## Usage
 - To run the Python program:
 ```
 $ python main.py
@@ -41,7 +41,7 @@ $ python main.py
 
 This will execute the main functionality of the program, integrating GitHub with Freshdesk.
 
->To run the tests:
+## To run the tests:
 ```
 $ python -m unittest
 ```
